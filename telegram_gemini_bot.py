@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import google.generativeai as genai
 
 # Read env variables
-TELEGRAM_TOKEN = os.getenv("8489357662:AAEvlfAGxkna6RlyNr8vcLXMzNGoqx4w3ks")
+TELEGRAM_TOKEN = os.getenv("AAFf4Vh0ZhTM_e06qsSlRi8Tcop3r0by5zM")
 GEMINI_API_KEY = os.getenv("AIzaSyCqqMW193V4xBHL2zp-hOfv_umOZRsAVEY")
 GEMINI_MODEL = "gemini-1.5-flash"  # hardcoded to keep it super simple
 
@@ -38,3 +38,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
